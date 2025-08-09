@@ -1,8 +1,11 @@
 import { Header } from "@/components/ui/header";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import NewTask from "./(newtask)/page";
+import { supabase } from "@/supabase";
 
-export default function Home() {
+export default async function Home() {
+    const { data } = await supabase.from('tasks').select();
+    console.log(data);
     return (
         <section className="w-4xl m-auto">
             <Header />
