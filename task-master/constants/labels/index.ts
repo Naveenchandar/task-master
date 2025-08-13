@@ -1,0 +1,47 @@
+export const TASKS_LABELS = {
+    NEW_TASK: "New Task",
+    NEW_TASK_FORM: {
+        TITLE: "Title",
+        DESCRIPTION: "Description",
+        PRIORITY: "Priority",
+        TASK_PRIORITY_OPTIONS: {
+            LOW: "Low",
+            MEDIUM: "Medium",
+            HIGH: "High",
+        },
+        STATUS: "Status",
+        TASK_STATUS_OPTIONS: {
+            todo: "Todo",
+            done: "Done",
+            backlog: "Backlog",
+            cancelled: "Cancelled",
+        },
+        TASK_TYPE: "Task Type",
+        TASK_TYPE_OPTIONS: {
+            ENTERTAINMENT: "Entertainment",
+            GROCERIES: "Groceries",
+            OFFICE_WORK: "Office Work",
+            PERSONAL: "Personal",
+            OTHER: "Other",
+            Work: 'Work',
+            Home: 'Home',
+            Chores: 'Chores',
+            Learning: 'Learning / Study',
+            Health: 'Health / Fitness',
+            Family: 'Family',
+            Friends: 'Friends / Social',
+            Finances: 'Finances / Bills',
+            Shopping: 'Shopping',
+            Errands: 'Errands',
+            PersonalCare: 'Personal Care / Self-care',
+            Projects: 'Projects',
+            DeepWork: 'Deep Work / Focus',
+            ShallowWork: 'Shallow Work / Quick Tasks',
+            MindCare: 'Mind Care',
+            BodyCare: 'Body Care',
+            NextWeek: 'Next Week (for scheduling ahead)',
+            Travel: 'Travel / Vacation',
+            Birthdays: 'Birthdays / Events',
+        }
+    }
+}
